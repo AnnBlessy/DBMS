@@ -1,3 +1,4 @@
+
 # EXP NO 1: ER DIAGRAM CREATION, RELATIONAL MODEL AND SCHEMA GENERATION  
 ### DATE : 9/08/23
 
@@ -12,6 +13,10 @@
 3. Create a strong entity, relation and attributes.
 4. Create a weak entity, relation and attributes.
 5. Specify attributes unique, multivalued and composite attributes.
+
+
+
+
 
 ### ER Diagram 
 
