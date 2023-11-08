@@ -1,4 +1,4 @@
-# EX.NO 7: PL/SQL program -BIGGEST OF THREE NUMBERS  
+# EXP NO 7: PL/SQL program -BIGGEST OF THREE NUMBERS  
 ### DATE: 27/9/23
 
 ### AIM: 
