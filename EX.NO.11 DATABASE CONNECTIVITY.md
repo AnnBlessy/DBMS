@@ -11,15 +11,16 @@ To create database connectivity and display the student table
 
 
 ### Steps:
+
 1. Install mysql,visual studio or python IDLE 3.12.
 2. Create a student database and table in MySQL.
 3. Pip install mysql-connector into python packages.
-4. Write a python progarm to perform the following
-       1.create a connection.
-       2. fetch data and store it in result set.
-       3. Display table rows.
-       4. Close the connection.
-6. Run the program
+4. Write a python progarm to perform the following:
+   a.) create a connection.
+   b.) fetch data and store it in result set.
+   c.) Display table rows.
+   d.) Close the connection.
+5. Run the program
 
 
 
