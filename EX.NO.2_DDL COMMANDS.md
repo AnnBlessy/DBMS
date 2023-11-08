@@ -1,5 +1,6 @@
 # EXP NO 2: DATA DEFINITION LANGUGE COMMANDS 
-### DATE
+### DATE : 16/08/23
+
 ## AIM:
 To create a student database and execute DDL queries using SQL.
 
@@ -87,6 +88,8 @@ rename table student to mystudent;
 
 
 ## Result:
-        Thus the basic DDL commands in SQL are executed.
+<div align="justify">
+       Thus the basic DDL commands in SQL are executed.
+</div>
 
 
