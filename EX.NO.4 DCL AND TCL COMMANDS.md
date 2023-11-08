@@ -1,4 +1,6 @@
+
 # EXP NO 4: Data Control Language (DCL) Commands and Transaction Control Languages (TCL) in SQL
+
 ### DATE : 30/08/23
 
 ## AIM:
@@ -8,16 +10,20 @@ To create a manager database and execute DML queries using SQL.
 ## Data Control Language (DCL) commands
 * Data control language (DCL) is used to access the stored data.
 * It is mainly used for revoke and to grant the user the required access to a database.
+
 ## List of DCL commands: 
 1. GRANT : It is used to insert data into a table.
 2. REVOKE: It is used to update existing data within a table.
+
 ## Transaction control language(TCL) commands
 1. COMMIT : COMMIT command in SQL is used to save all the transaction-related changes permanently to the disk
 2. START TRANSACTION : to start the transaction
 3. ROLLBACK : undo the transaction upto savepoint 
 4. SAVEPOINT : create a savepoint to save the different parts of the same transaction using different names
 
+
 ### Q1) Create a table employee with employee id ,name and Address
+
 
 ### QUERY:
 ```python
@@ -36,7 +42,6 @@ addr varchar(40)
 
 
 ### Q2) Insert three rows into emploee table 
-
 
 
 ### QUERY:
@@ -64,6 +69,7 @@ savepoint A;
 
 
 ### Q4) Perform insertion into employee table.
+
 
 ### QUERY:
 ```python
@@ -144,6 +150,7 @@ rollback to A;
 ### OUTPUT:
 ![image](https://github.com/Lakshmipriya2005/DBMS/assets/115525361/441afff5-9f95-418b-ad8b-c2b5cfbf810d)
 
+
 ### Q11)	Create a new user and grant access to any one database with "insert and update"
 
 
@@ -158,6 +165,7 @@ GRANT INSERT, UPDATE ON database_name TO new_user;
 
 ![image](https://github.com/Yuvaraj878/DBMS/assets/118622554/fd08ac3a-d1a5-4a16-af6a-f3bc5ff24629)
 
+
 ### Q12) Check the user access and display the result 
 
 
@@ -168,6 +176,7 @@ SHOW GRANTS FOR new_user;
 
 ### OUTPUT:
 ![image](https://github.com/Yuvaraj878/DBMS/assets/118622554/2fbd5d94-7610-4828-a072-c84372c06442)
+
 
 ### Q13) Revoke the privillages.
 
