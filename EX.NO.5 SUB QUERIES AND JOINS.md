@@ -1,12 +1,18 @@
+
 # EXP NO 5: SubQueries, Views and Joins 
+
 ### DATE : 13/09/23
 
 ## AIM
 ### To use SubQueries, Views and Joins in SQL 
+
+
 ## Create employee Table
 ```sql
 CREATE TABLE EMP (EMPNO NUMBER(4) PRIMARY KEY,ENAME VARCHAR2(10),JOB VARCHAR2(9),MGR NUMBER(4),HIREDATE DATE,SAL NUMBER(7,2),COMM NUMBER(7,2),DEPTNO NUMBER(2));
 ```
+
+
 ## Insert the values
 ```sql
 INSERT INTO EMP (EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPTNO)
@@ -52,10 +58,13 @@ INSERT INTO EMP (EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPTNO)
 VALUES (7934, 'MILLER', 'CLERK', 7782, TO_DATE('23-JAN-82', 'DD-MON-RR'), 1300, 10, 10);
 ```
 
+
 ## Create department table
 ```sql
 CREATE TABLE DEPT (DEPTNO NUMBER(2) PRIMARY KEY,DNAME VARCHAR2(14),LOC VARCHAR2(13));
 ```
+
+
 ## Insert the values in the department table
 ```sql
 INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (10, 'ACCOUNTING', 'NEW YORK');
@@ -67,6 +76,7 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (30, 'SALES', 'CHICAGO');
 INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 ```
 
+
 ### Q1) List the name of the employees whose salary is greater than that of employee with empno 7566.
 
 
@@ -77,7 +87,9 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 ### OUTPUT:
 ![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/ee7dd795-bf87-4dff-aca9-b80307477ddd)
 
+
 ### Q2) List the ename,job,sal of the employee who get minimum salary in the company.
+
 
 ### QUERY:
 ![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/2c78d720-f077-4843-bbbd-cefb0e36afcf)
@@ -85,6 +97,7 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 
 ### OUTPUT:
 ![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/0ca9e7dc-c9b6-45c6-b7a0-bf123d815295)
+
 
 ### Q3) List ename, job of the employees who work in deptno 10 and his/her job is any one of the job in the department ‘SALES’.
 
@@ -105,6 +118,7 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 ### OUTPUT:
 ![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/753d1db9-8955-4b97-b850-43622886968b)
 
+
 ### Q5) Create a view with column aliases empv30 that contains empno, ename, sal of the employees who work in dept 30. Also display the contents of the view.
 
 ### QUERY:
@@ -113,6 +127,7 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 
 ### OUTPUT:
 ![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/026712b5-02b2-40d6-a757-cec5bc08890d)
+
 
 ### Q6) Update the view empv5 by increasing 10% salary of the employees who work as ‘CLERK’. Also confirm the modifications in emp table
 
@@ -123,10 +138,12 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 ### OUTPUT:
 ![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/6941b531-33ed-41dc-b6f4-9e8bcc0dd113)
 
+
 ## Create a Customer1 Table
 ```sql
 CREATE TABLE Customer1 (customer_id INT,cust_name VARCHAR(20),city VARCHAR(20),grade INT,salesman_id INT);
 ```
+
 ## Inserting Values to the Table
 ```sql
 INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3002, 'Nick Rimando', 'New York', 100, 5001);
@@ -138,10 +155,12 @@ INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(
 INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3003, 'Jozy Altidor', 'Moscow', 200, 5007);
 INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3001, 'Brad Guzan', 'London', NULL, 5005);
 ```
+
 ## Create a Salesperson1 table
 ```sql
 CREATE TABLE Salesman1 (salesman_id INT,name VARCHAR(20),city VARCHAR(20),commission DECIMAL(4,2));
 ```
+
 ## Inserting Values to the Table
 ```sql
 INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5001, 'James Hoog', 'New York', 0.15);
@@ -151,6 +170,7 @@ INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5006, 'Mc Lyo
 INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5007, 'Paul Adam', 'Rome', 0.13);
 INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson Hen', 'San Jose', 0.12);
 ```
+
 ### Q7) Write a SQL query to find the salesperson and customer who reside in the same city. Return Salesman, cust_name and city.
 
 ### QUERY:
@@ -159,6 +179,7 @@ INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson
 
 ### OUTPUT:
 ![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/4bf9b80e-b31d-486e-87b5-5462e60e6e2f)
+
 
 ### Q8) Write a SQL query to find salespeople who received commissions of more than 13 percent from the company. Return Customer Name, customer city, Salesman, commission.
 
@@ -170,6 +191,7 @@ INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson
 ### OUTPUT:
 ![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/031553d8-640c-4306-9f12-cd4a6c6a68ed)
 
+
 ### Q9) Perform Natural join on both tables
 
 ### QUERY:
@@ -178,6 +200,7 @@ INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson
 
 ### OUTPUT:
 ![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/1026e100-8a70-45e8-bdcb-3d51efdfa1fc)
+
 
 ### Q10) Perform Left and right join on both tables
 
@@ -195,6 +218,7 @@ INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson
 
    ## Right Join
    ![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/43cc7093-35af-4c4b-8854-068a0f0b34d1)
+
 
 ## RESULT 
 Thus the basics of subqueries,views,joins are performed in SQL.
