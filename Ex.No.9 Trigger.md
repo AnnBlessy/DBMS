@@ -1,4 +1,4 @@
-# EX.NO 9: PL/SQL program using Triggers 
+# EXP NO 9: PL/SQL program using Triggers 
 ### DATE: 11/10/23
 
 ### AIM: 
