@@ -1,4 +1,4 @@
-# EX.NO 4: Data Control Language (DCL) Commands and Transaction Control Languages (TCL) in SQL
+# EXP NO 4: Data Control Language (DCL) Commands and Transaction Control Languages (TCL) in SQL
 ### DATE : 30/08/23
 
 ## AIM:
