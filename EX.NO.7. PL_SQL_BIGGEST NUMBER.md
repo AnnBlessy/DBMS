@@ -1,8 +1,14 @@
+
 # EXP NO 7: PL/SQL program -BIGGEST OF THREE NUMBERS  
+
 ### DATE: 27/9/23
+
+
 
 ### AIM: 
 To create PL/SQL program to find biggest of three numbers.
+
+
 
 ### ALGORITHM:
 1. Declare the variable a, b, c and assign value in Declare section.
@@ -10,6 +16,10 @@ To create PL/SQL program to find biggest of three numbers.
 3. Find biggest of three numbers 
 4. 5. Display the result 
 6. End the begin section.
+
+
+
+
 
 ### Program:
 ```
@@ -36,6 +46,7 @@ END;
 
 
 ```
+
 
 ### Output:
 ![Screenshot 2023-10-20 134256](https://github.com/Lakshmipriya2005/DBMS/assets/115525361/c45bc1ec-23a9-4554-9b19-91b8a9ce15d2)
