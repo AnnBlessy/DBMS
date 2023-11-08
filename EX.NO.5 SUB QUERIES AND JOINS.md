@@ -1,4 +1,4 @@
-# EX.NO 5: SubQueries, Views and Joins 
+# EXP NO 5: SubQueries, Views and Joins 
 ### DATE : 13/09/23
 
 ## AIM
