@@ -1,9 +1,14 @@
 
-# EXP NO 11: DATA BASE CONNECTIVITY USING  MYSQL AND JAVA
+# EXP NO 11: DATA BASE CONNECTIVITY USING  MYSQL AND PYTHON
+
 ### DATE: 25/10/23
+
 
 ### AIM: 
 To create database connectivity and display the student table 
+
+
+
 
 ### Steps:
 1. Install mysql,visual studio or python IDLE 3.12.
@@ -14,7 +19,9 @@ To create database connectivity and display the student table
 
 
 
+
 ### Program:
+
 ```
 #PRGRAM TO CONNECT MYSQL AND PYTHON
 #MENU DRIVEN PROGRAM
