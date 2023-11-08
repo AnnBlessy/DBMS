@@ -1,3 +1,4 @@
+
 # EXP NO 11: DATA BASE CONNECTIVITY USING  MYSQL AND JAVA
 ### DATE: 25/10/23
 
@@ -10,6 +11,8 @@ To create database connectivity and display the student table
 3. Pip install mysql-connector into python packages.
 4. Write a python progarm to perform the following 1.create a connection 2. fetch data and store it in result set 3. Display table rows. 4. Close the connection
 6. Run the program
+
+
 
 ### Program:
 ```
@@ -71,7 +74,6 @@ while(True):
     else:
         print("Thank You !!")
         break
-
 ```
 
 ### Output:
