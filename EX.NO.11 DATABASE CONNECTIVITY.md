@@ -1,6 +1,8 @@
-# Ex. No: 10 DATA BASE CONNECTIVITY USING  MYSQL AND JAVA
-### DATE: 
-### AIM: To create database connectivity and display the employee table 
+# EXP NO 11: DATA BASE CONNECTIVITY USING  MYSQL AND JAVA
+### DATE: 25/10/23
+
+### AIM: 
+To create database connectivity and display the employee table 
 
 ### Steps:
 1. Install mysql,visual studio,jdk, extensions of java pack.
